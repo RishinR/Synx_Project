@@ -4,7 +4,7 @@ This application allows administrators to schedule meetings and add attendees, w
 
 ## Features
 
-- **Meeting Creation**: Admins can create new meetings and add attendees.
+- **Meeting Operations**: Admins can create update and delete meetings and add attendees.
 - **Dashboard Notifications**: Users receive notifications on their dashboards when new meetings are created.
 - **Real-time Chat**: Users can chat with each other in real-time.
 
@@ -21,16 +21,10 @@ git clone https://github.com/yourusername/meeting-app.git
 cd meeting-app
 npm install
 3. Set up environment variables. Create a `.env` file in the root directory and add the following:
-PORT=1337 (server)
+PORT=1337
 DB_URI=your_mongodb_uri
-AUTH0_DOMAIN=your_auth0_domain
-AUTH0_CLIENT_ID=your_auth0_client_id
 4. Start the server:
 npm start
-5. Start the client:
-npm run dev
-6. Access the application:
-Open your web browser and go to `http://localhost:5173`.
 ## Usage
 
 - **Admin Dashboard**: Log in as an admin to schedule meetings and manage attendees.
