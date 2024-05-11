@@ -16,7 +16,7 @@ This application allows administrators to schedule meetings and add attendees, w
 ## Setup
 
 1. Clone the repository:
-git clone https://github.com/<username>/Synx_Project.git
+git clone https://github.com/your_username/Synx_Project.git
 2. Install dependencies:
 cd meeting-app
 npm install
